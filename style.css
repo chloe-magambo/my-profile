@@ -1,0 +1,132 @@
+ body{
+   background-color: #D1FFF3;
+   color: #FF8787;
+   font-family: 'Alkatra', cursive;
+   font-size: 20px;
+ }
+
+ h1, h2, { 
+  font-family: 'Caveat', cursive;
+ }
+
+h1{
+	color: rebeccapurple;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 32px;
+}
+h2{
+	color: mediumpurple;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: 800;
+  font-size: 16px;
+}
+a:hover{
+	color: blueviolet;
+}
+
+
+/*Custome design with class*/ 
+
+.container{
+  width: 700px;
+  margin: 30px auto;
+}
+
+@media (max-width: 7600px ) {
+
+  .container{
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px ) {
+
+  .container{
+    width: 400px;
+  }
+}
+
+
+.card-ghostwhite{
+   background-color: ghostwhite;
+   padding:  50px;
+   margin: 40px 0px;
+   box-shadow: 0px 10px 30px #FFD4D4;
+   border-radius: 6px;
+   text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-white{
+  background-color: rebeccapurple;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+} 
+
+.btn-white:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 70px;
+}
+
+.list-inline i:hover{
+  color: mediumpurple;
+}
+
+#introduction p{
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
